@@ -12,3 +12,18 @@ export default {
 } as Meta<TextProps>
 
 export const Primary: StoryObj<TextProps> = {}
+
+export const CustomTag: StoryObj<TextProps> = {
+  args: {
+    children: 'Text with custom tag',
+    as: 'strong',
+  },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'Por padrão o Text é sempre um `p`, mas podemos sobrescrever com o `as`',
+      },
+    },
+  },
+}
