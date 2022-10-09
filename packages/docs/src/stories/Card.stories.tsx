@@ -4,6 +4,9 @@ import { Card, CardProps, Text } from '@ignite-ui/react'
 export default {
   title: 'Surfaces/Card',
   component: Card,
+  parameters: {
+    layout: 'centered',
+  },
 
   args: {
     children: (
@@ -17,6 +20,18 @@ export default {
       </Text>
     ),
   },
+  decorators: [
+    (Story) => (
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+        }}
+      >
+        <div style={{ width: '50%' }}>{Story()}</div>
+      </div>
+    ),
+  ],
 } as Meta<CardProps>
 
 export const Primary: StoryObj<CardProps> = {}

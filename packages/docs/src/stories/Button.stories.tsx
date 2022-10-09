@@ -9,6 +9,9 @@ export default {
   args: {
     children: 'LABEL',
   },
+  parameters: {
+    layout: 'centered',
+  },
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}

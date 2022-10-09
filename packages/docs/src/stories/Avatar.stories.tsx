@@ -4,6 +4,9 @@ import { Avatar, AvatarProps } from '@ignite-ui/react'
 export default {
   title: 'Data Display/Avatar',
   component: Avatar,
+  parameters: {
+    layout: 'centered',
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {

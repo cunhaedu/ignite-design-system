@@ -4,6 +4,9 @@ import { HeadingProps, Heading } from '@ignite-ui/react'
 export default {
   title: 'Typography/Heading',
   component: Heading,
+  parameters: {
+    layout: 'centered',
+  },
 
   args: {
     children: 'Subtitle',
