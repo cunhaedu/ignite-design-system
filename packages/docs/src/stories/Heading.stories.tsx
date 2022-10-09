@@ -6,7 +6,7 @@ export default {
   component: Heading,
 
   args: {
-    children: 'Custom Title',
+    children: 'Subtitle',
   },
 } as Meta<HeadingProps>
 
@@ -14,7 +14,7 @@ export const Primary: StoryObj<HeadingProps> = {}
 
 export const CustomTag: StoryObj<HeadingProps> = {
   args: {
-    children: 'H1 Heading',
+    children: 'Title',
     as: 'h1',
   },
   parameters: {
