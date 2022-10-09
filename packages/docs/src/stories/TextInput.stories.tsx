@@ -7,6 +7,23 @@ export default {
   parameters: {
     layout: 'centered',
   },
+  args: {
+    disabled: false,
+    placeholder: 'Placeholder',
+    prefix: '',
+  },
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    prefix: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<TextInputProps>
 
 export const Primary: StoryObj<TextInputProps> = {
@@ -24,5 +41,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'prefix/',
+    placeholder: '',
   },
 }

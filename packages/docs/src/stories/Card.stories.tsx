@@ -20,6 +20,13 @@ export default {
       </Text>
     ),
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
   decorators: [
     (Story) => (
       <div

@@ -8,7 +8,14 @@ export default {
     layout: 'centered',
   },
   args: {
-    placeholder: 'Placeholder',
+    disabled: false,
+  },
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
   },
 } as Meta<CheckboxProps>
 
