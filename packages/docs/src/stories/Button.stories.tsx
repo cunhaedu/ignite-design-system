@@ -33,6 +33,11 @@ export default {
     onClick: {
       action: 'click',
     },
+    children: {
+      control: {
+        type: null,
+      },
+    },
   },
   parameters: {
     layout: 'centered',
