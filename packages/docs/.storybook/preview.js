@@ -10,5 +10,8 @@ export const parameters = {
   },
   docs: {
     theme: themes.dark,
-  }
+  },
+  parameters: {
+    layout: 'centered',
+  },
 }
