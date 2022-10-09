@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Card, MultiStep, MultiStepProps } from '@ignite-ui/react'
+import { Card, MultiStep, MultiStepProps } from '@eduardo-ignite-ui/react'
 
 export default {
   title: 'Form/Multi Step',

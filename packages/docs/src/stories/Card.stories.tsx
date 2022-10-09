@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Card, CardProps, Text } from '@ignite-ui/react'
+import { Card, CardProps, Text } from '@eduardo-ignite-ui/react'
 
 export default {
   title: 'Surfaces/Card',
