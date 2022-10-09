@@ -1,0 +1,2 @@
+import{b as e}from"./index.5ccb354b.js";import"./index.e5ac996e.js";import"./iframe.349dff20.js";import"./index.0058448a.js";import"./jsx-runtime.5191a904.js";const l={title:"Form/TextArea",component:e,parameters:{layout:"centered"},args:{placeholder:"Placeholder",disabled:!1},argTypes:{disabled:{control:{type:"boolean"}}}},d={},i={args:{disabled:!0}},m=["Primary","Disabled"];export{i as Disabled,d as Primary,m as __namedExportsOrder,l as default};
+//# sourceMappingURL=TextArea.stories.80f36e17.js.map
